@@ -1,3 +1,4 @@
+// o Código abaixo grava uma mensagem de reposta  ao acessar a porta que o node responde no navegador
 var http = require('http');
 
 http.createServer(function (req, res) {
